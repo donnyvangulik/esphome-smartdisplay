@@ -41,10 +41,10 @@ STL files (external): <https://www.thingiverse.com/thing:6829981>
 2. Download MDI webfont TTF and place it at **`fonts/materialdesignicons-webfont.ttf`**  
    - TTF source: Material Design Icons Webfont (Templarian).
 3. Open `esphome/smartdisplay.yaml` and adjust the **entity IDs** to your Home Assistant setup:
-   - `switch.infrarood_bureau_don`
+   - `switch.infrarood_bureau`
    - `fan.pwm_fan_867b6c_pwm_fan`
    - `light.gamekamer`
-   - `light.bureau_benjamin`
+   - `light.bureau`
 4. (Optional but recommended) Set Wi‑Fi power save off:
    ```yaml
    wifi:
