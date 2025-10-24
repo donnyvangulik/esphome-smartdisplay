@@ -85,7 +85,7 @@ binary_sensor:
         - homeassistant.service:
             service: switch.toggle
             data:
-              entity_id: switch.infrarood_bureau_don
+              entity_id: switch.infrarood_bureau
 
   - platform: touchscreen
     name: Button 2
@@ -124,7 +124,7 @@ binary_sensor:
         - homeassistant.service:
             service: light.toggle
             data:
-              entity_id: light.bureau_benjamin
+              entity_id: light.bureau
 
 text_sensor:
   - platform: template
@@ -154,7 +154,7 @@ text_sensor:
 
   - platform: homeassistant
     id: button1
-    entity_id: switch.infrarood_bureau_don
+    entity_id: switch.infrarood_bureau
     on_value:
       then:
         - component.update: my_display
@@ -175,7 +175,7 @@ text_sensor:
 
   - platform: homeassistant
     id: button4
-    entity_id: light.bureau_benjamin
+    entity_id: light.bureau
     on_value:
       then:
         - component.update: my_display
